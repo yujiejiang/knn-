@@ -1,0 +1,4 @@
+- Implementing an weighted KNN in order to find the best K between test dataset and training dataset.
+- euclideanDist function: calculating distance by using Euclidean distance function. 
+- knn function: creating a data frame with Euclidean distance of test point and training point and the classification(the last column in the data set). Using voting technique to prevent tie situation in the algorithm. Also adding 1 to the distances incase there is a 0 distance between test point and training points.
+  
