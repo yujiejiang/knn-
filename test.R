@@ -14,7 +14,7 @@ test <- read.csv('test.csv', header=T, sep=',',stringsAsFactors = FALSE)
 #val_class<-c()
 
 
-#deleting the fiirst col of val, which contains the classcification 
+#deleting the fiirst col of all data set, which contains the classcification 
 val <- val[-1]
 train<-train[-1]
 test<-test[-1]
